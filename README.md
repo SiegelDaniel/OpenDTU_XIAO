@@ -1,3 +1,9 @@
+# Notes from Daniel
+
+The platform.io configuration is based upon the information provided here:
+![Click me](https://docs.platformio.org/en/stable/boards/espressif32/seeed_xiao_esp32c3.html)
+
+
 # OpenDTU
 
 [![OpenDTU Build](https://github.com/tbnobody/OpenDTU/actions/workflows/build.yml/badge.svg)](https://github.com/tbnobody/OpenDTU/actions/workflows/build.yml)

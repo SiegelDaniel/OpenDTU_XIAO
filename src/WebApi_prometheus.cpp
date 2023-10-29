@@ -35,7 +35,7 @@ void WebApiPrometheusClass::onPrometheusMetricsGet(AsyncWebServerRequest* reques
         stream->print("# HELP opendtu_build Build info\n");
         stream->print("# TYPE opendtu_build gauge\n");
         stream->printf("opendtu_build{name=\"%s\",id=\"%s\",version=\"%d.%d.%d\"} 1\n",
-            NetworkSettings.getHostname().c_str(), AUTO_GIT_HASH, CONFIG_VERSION >> 24 & 0xff, CONFIG_VERSION >> 16 & 0xff, CONFIG_VERSION >> 8 & 0xff);
+            NetworkSettings.getHostname().c_str(), "1.3.3.7", CONFIG_VERSION >> 24 & 0xff, CONFIG_VERSION >> 16 & 0xff, CONFIG_VERSION >> 8 & 0xff);
 
         stream->print("# HELP opendtu_platform Platform info\n");
         stream->print("# TYPE opendtu_platform gauge\n");
